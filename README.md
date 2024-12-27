@@ -13,12 +13,12 @@
 
 ## File Structure 
 
-Pinnacle-Task1/
-    index.html              # Main html file 
-    task1.css               # css file to style the page
-    javascript.js           # js file for intraction with elements 
-    README.md               #ReadMe file for instructions
-    
+portfolio/
+│               
+├── index.html         # Main HTML file 
+├── JavaScript.js      # JavaScript file for interactive elements
+├── style.css          # CSS file for styling the portfolio
+└── README.md          # README file for Instructions 
 # Installation 
 1. open the project folder in editor
 2. open the terminal and run the command to clone "git clone https://github.com/MuktaTiwari/Pinnacle_task1.git"
