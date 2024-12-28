@@ -482,45 +482,76 @@
     background-color: var(--winter-sky);
   }
   
-  /*Feature section---------------*/
+  /*Skills section---------------*/
   
-  .features-list > li:first-child { 
-      margin-block-end: 30px; 
-  }
+  .skills-section {
+    padding: 3rem 2rem;
+    background: var(--second-bg-color);
+}
   
-  .features-card {
-    display: flex;
-    align-items: flex-start;
-    gap: 20px;
-  }
+.section-title {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
   
-  .features-card .icon {
-    background-image: var(--gradient-1);
-    background-size: 200%;
-    color: var(--white);
-    min-width: max-content;
-    max-width: max-content;
-    font-size: 36px;
-    padding: 22px;
-    border-radius: 50%;
-  }
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+}
   
-  .features-card .icon ion-icon { 
-      --ionicon-stroke-width: 20px; 
-  }
+.skill-card {
+    background: var(--main-bg-color);
+    border-radius: 0.5rem;
+    padding: 1rem;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.skill-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
   
-  .features-card .title { 
-      margin-block-end: 10px; 
-  }
+.skill-card .icon {
+    font-size: 3rem;
+    color: var(--text-color);
+    margin-bottom: 1rem;
+}
   
-  .features-banner { 
-      margin-block: 40px; 
-  }
+.skill-card .content h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
   
-  .features-banner > img {
-    max-width: max-content;
-    margin-inline: auto;
-  }
+.progress-bar {
+    background: var(--second-bg-color);
+    height: 10px;
+    border-radius: 5px;
+    overflow: hidden;
+    margin: 0.5rem 0;
+    position: relative;
+    transition: background 0.3s ease;
+}
+
+.skill-card:hover{
+    background: var(--winter-sky_50);
+}
+
+.progress-bar .progress {
+    background: var(--winter-sky_50);
+    height: 100%;
+    width: 0;
+    transition: width 0.3s ease-in-out;
+}
+
+.skill-card span {
+    font-size: 1rem;
+    color: var(--text-color);
+}
+
   
   
   /*Blog section----------*/
