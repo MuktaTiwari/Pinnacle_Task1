@@ -1077,4 +1077,80 @@
   
   
   
-    
+    /* General styles for the form */
+.contact-form {
+    width: 300%; 
+    margin: 0 auto;
+    padding: 20px;
+    background-color: var(--white); 
+    border-radius: var(--radius-12); 
+    box-shadow: var(--shadow); 
+}
+
+/* Form title */
+.contact-form h2 {
+    color: var(--st-patricks-blue);
+    font-size: var(--fs-4);
+    font-weight: var(--fw-700);
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Form group styles */
+.contact-form .form-group {
+    margin-bottom: 20px;
+}
+
+/* Labels */
+.contact-form label {
+    font-size: var(--fs-8);
+    font-weight: var(--fw-600);
+    color: var(--space-cadet-2);
+    display: block;
+    margin-bottom: 5px;
+}
+
+/* Inputs and textarea */
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: var(--fs-8);
+    border: 1px solid var(--space-cadet-1);
+    border-radius: var(--radius-4);
+    outline: none;
+    transition: var(--transition-2);
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    border-color: var(--amaranth-purple);
+    box-shadow: 0 0 5px hsla(335, 88%, 38%, 0.5);
+}
+
+/* Error messages */
+.contact-form .error-message {
+    font-size: var(--fs-7);
+    color: var(--razzmatazz);
+    margin-top: 5px;
+}
+
+/* Submit button */
+.contact-form .submit-button {
+    display: block;
+    background-image: var(--gradient-2);
+    color: var(--white);
+    font-size: var(--fs-8);
+    font-weight: var(--fw-600);
+    padding: 10px 20px;
+    border-radius: var(--radius-12);
+    margin: 0 auto;
+    transition: var(--transition-2);
+    text-align: center;
+}
+
+.contact-form .submit-button:hover {
+    background-position: right;
+    box-shadow: 0 5px 15px hsla(39, 100%, 52%, 0.3);
+    transform: scale(1.05);
+}
