@@ -1,422 +1,454 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
 
     <!--Favicon-->
-    <link rel="stylesheet" href="./favicon.svg" type="image/svg+xml">
-    <link rel="stylesheet" href="task1.css">
+    <link rel="stylesheet" href="./favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="task1.css" />
 
     <!--Google font-->
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-        href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Source+Sans+Pro:wght@600;700&display=swap"
-        rel="stylesheet">
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Source+Sans+Pro:wght@600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-
-</head>
-
-<body id="top">
-
+  <body id="top">
     <!----header-->
 
     <header class="header" data-header>
-        <div class="container">
-            <div class="overlay" data-overlay></div>
-            <a href="#">
-                <h1 class="logo">Portfolio</h1>
-            </a>
+      <div class="container">
+        <div class="overlay" data-overlay></div>
+        <a href="#">
+          <h1 class="logo">Portfolio</h1>
+        </a>
 
-            <nav class="navbar" data-navbar>
-                <div class="navbar-top">
-                    <a href="#" class="logo">V-INDUS</a>
+        <nav class="navbar" data-navbar>
+          <div class="navbar-top">
+            <a href="#" class="logo">V-INDUS</a>
 
-                    <button class="nav-close-btn" aria-label="Close Menu" data-nav-close-btn>
-                        <ion-icon name="close-outline"></ion-icon>
-                    </button>
-                </div>
-                <ul class="navbar-list">
-
-                    <li class="navbar-item">
-                        <a href="#home" class="navbar-link" data-navbar-link>Home</a>
-                    </li>
-                    <li class="navbar-item">
-                        <a href="#about" class="navbar-link" data-navbar-link>About</a>
-                    </li>
-                    <li class="navbar-item">
-                        <a href="#project" class="navbar-link" data-navbar-link>project</a>
-                    </li>
-                    <li class="navbar-item">
-                        <a href="#Skills" class="navbar-link" data-navbar-link>Skills</a>
-                    </li>
-                    <li class="navbar-item">
-                        <a href="#contact" class="navbar-link" data-navbar-link>Contact</a>
-                    </li>
-
-
-                </ul>
-
-
-            </nav>
-            <a href="#" class="btn" id="githubButton">
-                <ion-icon name="chevron-forward-outline" aria-hidden="true"></ion-icon>
-                <span>Github Profile</span>
-              </a>
-            <button class="nav-open-btn" aria-label="Open Menu" data-nav-open-btn>
-                <ion-icon name="menu-outline"></ion-icon>
+            <button
+              class="nav-close-btn"
+              aria-label="Close Menu"
+              data-nav-close-btn
+            >
+              <ion-icon name="close-outline"></ion-icon>
             </button>
-
-
-
-        </div>
-
+          </div>
+          <ul class="navbar-list">
+            <li class="navbar-item">
+              <a href="#home" class="navbar-link" data-navbar-link>Home</a>
+            </li>
+            <li class="navbar-item">
+              <a href="#about" class="navbar-link" data-navbar-link>About</a>
+            </li>
+            <li class="navbar-item">
+              <a href="#project" class="navbar-link" data-navbar-link
+                >project</a
+              >
+            </li>
+            <li class="navbar-item">
+              <a href="#Skills" class="navbar-link" data-navbar-link>Skills</a>
+            </li>
+            <li class="navbar-item">
+              <a href="#contact" class="navbar-link" data-navbar-link
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </nav>
+        <a href="#" class="btn" id="githubButton">
+          <ion-icon
+            name="chevron-forward-outline"
+            aria-hidden="true"
+          ></ion-icon>
+          <span>Github Profile</span>
+        </a>
+        <button class="nav-open-btn" aria-label="Open Menu" data-nav-open-btn>
+          <ion-icon name="menu-outline"></ion-icon>
+        </button>
+      </div>
     </header>
 
     <!--main sectiom-->
     <main>
-        <article>
-            <section class="hero" id="home">
-                <div class="container">
-                    <div class="hero-content">
-                        <p class="hero-subtitle">GET(Graduate Engineer Training)</p>
-                        <h2 class="h2 hero-title">We design the future here</h2>
-                        <p class="hero-text">As a graduate engineer in Information Technology, 
-                            I specialize in developing innovative solutions through a 
-                            blend of technical expertise and 
-                            creativity. My experience with Java, Spring, Hibernate, 
-                            and MySQL has enabled me to design applications. I am passionate 
-                            about contributing to the future of technology by solving real-world 
-                            challenges and delivering impactful results
-                        </p>
-                        <button id="view-cv" class="btn">Look at my CV</button>
-                    </div>
-                    <figure class="hero-banner">
-                        <img src="hero-banner.png" width="694" height="529" loading="lazy" alt="hero-banner"
-                            class="w-100 banner-animation">
-                    </figure>
-                </div>
-            </section>
+      <article>
+        <section class="hero" id="home">
+          <div class="container">
+            <div class="hero-content">
+              <p class="hero-subtitle">GET(Graduate Engineer Training)</p>
+              <h2 class="h2 hero-title">We design the future here</h2>
+              <p class="hero-text">
+                As a graduate engineer in Information Technology, I specialize
+                in developing innovative solutions through a blend of technical
+                expertise and creativity. My experience with Java, Spring,
+                Hibernate, and MySQL has enabled me to design applications. I am
+                passionate about contributing to the future of technology by
+                solving real-world challenges and delivering impactful results
+              </p>
+              <button id="view-cv" class="btn">Look at my CV</button>
+            </div>
+            <figure class="hero-banner">
+              <img
+                src="hero-banner.png"
+                width="694"
+                height="529"
+                loading="lazy"
+                alt="hero-banner"
+                class="w-100 banner-animation"
+              />
+            </figure>
+          </div>
+        </section>
 
+        <!------ABout section-->
+        <section class="section about" id="about">
+          <div class="container">
+            <figure class="about-banner">
+              <img
+                src="about-banner.png"
+                width="600"
+                height="532"
+                loading="lazy"
+                alt="about-banner"
+                class="w-100 banner-animation"
+              />
+            </figure>
+            <div class="about-container">
+              <h2 class="h2 section-title underline">About Me</h2>
+              <p class="about-text">
+                I am Manimukta Tiwari, a Graduate Engineer Training with a
+                strong foundation in Information Technology, graduated from
+                Ramdeobaba College of Engineering and Management. With 6 months
+                of hands-on experience as a Java Developer at Oakland Systems, I
+                have worked with cutting-edge technologies like Java, Spring,
+                Hibernate, JSP, MySQL, and more. developing user-friendly
+                solutions, aiming to deliver impactful and innovative software.
+                Currently, I am seeking opportunities to leverage my skills and
+                contribute to meaningful projects in the tech industry. Let's
+                build something amazing together!
+              </p>
+            </div>
+          </div>
+        </section>
 
-            <!------ABout section-->
-            <section class="section about" id="about">
-                <div class="container">
-                    <figure class="about-banner">
-                        <img src="about-banner.png" width="600" height="532" loading="lazy" alt="about-banner"
-                            class="w-100 banner-animation">
-                    </figure>
-                    <div class="about-container">
-                        <h2 class="h2 section-title underline">About Me</h2>
-                        <p class="about-text">
-                            I am Manimukta Tiwari, a Graduate Engineer Training 
-                            with a strong foundation in Information Technology, 
-                            graduated from Ramdeobaba College of Engineering and 
-                            Management. With 6 months of hands-on experience as a 
-                            Java Developer at Oakland Systems, I have worked with 
-                            cutting-edge technologies like Java, Spring, Hibernate, 
-                            JSP, MySQL, and more. developing user-friendly solutions, 
-                            aiming to deliver impactful and innovative software. 
-                            Currently, I am seeking opportunities to leverage my skills 
-                            and contribute to meaningful projects in the tech industry. 
-                            Let's build something amazing together!
-                        </p>
-                    </div>
-                </div>
-            </section>
+        <!----Service section-->
 
-            <!----Service section-->
+        <!----Service section-->
 
-            <section class="section services" id="project">
-                <div class="container">
-                    <h2 class="h2 section-title underline">Our services</h2>
-                    <ul class="services-list">
-                        <li>
-                            <div class="services-card">
-                                <div class="card-icon">
-                                    <ion-icon name="telescope-outline"></ion-icon>
-                                </div>
-
-                                <h3 class="h3 title">Strategy & Researchs</h3>
-
-                                <p class="text">
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente dolorem impedit
-                                    vero ipsa nam labore? Quidem quasi aspernatur ipsa dolores alias architecto illum
-                                    quo! Minima culpa in at laudantium obcaecati.
-                                </p>
-
-                                <button class="card-btn" aria-label="show more">
-                                    <ion-icon name="chevron-forward-outline"></ion-icon>
-                                </button>
-
-                            </div>
-                        </li>
-                        <li>
-                            <div class="services-card">
-                                <div class="card-icon">
-                                    <ion-icon name="desktop-outline"></ion-icon>
-                                </div>
-
-                                <h3 class="h3 title">Web-development</h3>
-
-                                <p class="text">
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente dolorem impedit
-                                    vero ipsa nam labore? Quidem quasi aspernatur ipsa dolores alias architecto illum
-                                    quo! Minima culpa in at laudantium obcaecati.
-                                </p>
-
-                                <button class="card-btn" aria-label="show more">
-                                    <ion-icon name="chevron-forward-outline"></ion-icon>
-                                </button>
-
-                            </div>
-                        </li>
-                        <li>
-                            <div class="services-card">
-                                <div class="card-icon">
-                                    <ion-icon name="globe-outline"></ion-icon>
-                                </div>
-
-                                <h3 class="h3 title">Web solution</h3>
-
-                                <p class="text">
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente dolorem impedit
-                                    vero ipsa nam labore? Quidem quasi aspernatur ipsa dolores alias architecto illum
-                                    quo! Minima culpa in at laudantium obcaecati.
-                                </p>
-
-                                <button class="card-btn" aria-label="show more">
-                                    <ion-icon name="chevron-forward-outline"></ion-icon>
-                                </button>
-
-                            </div>
-                        </li>
-
-                    </ul>
-                </div>
-            </section>
-
-            <!--------Skills section-->
-
-
-            <section class="skills-section" id="Skills">
-                <div class="container">
-                  <h2 class="section-title">My Skills</h2>
-                  <div class="skills-grid">
-                    <!-- Skill Card -->
-                    <div class="skill-card">
-                        <div class="icon">
-                            <ion-icon name="code-outline"></ion-icon>
-                      </div>
-                      <div class="content">
-                          <h3>Java</h3>
-                          <div class="progress-bar">
-                          <div class="progress" style="width: 85%;"></div>
-                        </div>
-                        <span>85%</span>
-                      </div>
-                    </div>
-                    <div class="skill-card">
-                      <div class="icon">
-                        <ion-icon name="logo-javascript"></ion-icon>
-                      </div>
-                      <div class="content">
-                        <h3>JavaScript</h3>
-                        <div class="progress-bar">
-                          <div class="progress" style="width: 80%;"></div>
-                        </div>
-                        <span>80%</span>
-                      </div>
-                    </div>
-                    <div class="skill-card">
-                      <div class="icon">
-                        <ion-icon name="logo-html5"></ion-icon>
-                      </div>
-                      <div class="content">
-                        <h3>HTML</h3>
-                        <div class="progress-bar">
-                          <div class="progress" style="width: 90%;"></div>
-                        </div>
-                        <span>90%</span>
-                      </div>
-                    </div>
-                    <!-- Skill Card -->
-                    <div class="skill-card">
-                      <div class="icon">
-                        <ion-icon name="logo-css3"></ion-icon>
-                      </div>
-                      <div class="content">
-                        <h3>CSS</h3>
-                        <div class="progress-bar">
-                          <div class="progress" style="width: 85%;"></div>
-                        </div>
-                        <span>85%</span>
-                      </div>
-                    </div>
-                    <!-- Skill Card -->
-                    <!-- Skill Card -->
-                    <div class="skill-card">
-                      <div class="icon">
-                        <ion-icon name="server-outline"></ion-icon>
-                      </div>
-                      <div class="content">
-                        <h3>MySQL</h3>
-                        <div class="progress-bar">
-                          <div class="progress" style="width: 75%;"></div>
-                        </div>
-                        <span>75%</span>
-                      </div>
-                    </div>
-                    <!-- Skill Card -->
-                    <!-- Skill Card -->
-                    <div class="skill-card">
-                      <div class="icon">
-                        <ion-icon name="construct-outline"></ion-icon>
-                      </div>
-                      <div class="content">
-                        <h3>Spring</h3>
-                        <div class="progress-bar">
-                          <div class="progress" style="width: 70%;"></div>
-                        </div>
-                        <span>70%</span>
-                      </div>
-                    </div>
-                    <!-- Skill Card -->
-                    <div class="skill-card">
-                      <div class="icon">
-                        <ion-icon name="cog-outline"></ion-icon>
-                      </div>
-                      <div class="content">
-                        <h3>Hibernate</h3>
-                        <div class="progress-bar">
-                          <div class="progress" style="width: 65%;"></div>
-                        </div>
-                        <span>65%</span>
-                      </div>
-                    </div>
+        <section class="section services" id="project">
+          <div class="container">
+            <h2 class="h2 section-title underline">My Projects</h2>
+            <ul class="services-list">
+              <!-- Project 1 -->
+              <li>
+                <div class="services-card">
+                  <div class="card-icon">
+                    <ion-icon name="document-text-outline"></ion-icon>
                   </div>
+
+                  <h3 class="h3 title">Blog_Site</h3>
+
+                  <p class="text">
+                    Crafted with HTML, CSS, and JS, Blog_Site is your gateway to
+                    captivating stories and dynamic content.
+                  </p>
+
+                  <a
+                    href="https://muktatiwari.github.io/Blog_site/"
+                    target="_blank"
+                  >
+                    <button class="card-btn" aria-label="Visit Blog_Site">
+                      <ion-icon name="chevron-forward-outline"></ion-icon>
+                    </button>
+                  </a>
                 </div>
-              </section>
+              </li>
 
+              <!-- Project 2 -->
+              <li>
+                <div class="services-card">
+                  <div class="card-icon">
+                    <ion-icon name="cart-outline"></ion-icon>
+                  </div>
 
-            <!------Footer Section--------------->
+                  <h3 class="h3 title">Shop Website</h3>
 
-            <footer class="footer" id="contact">
-                <div class="footer-top section">
-                    <div class="container">
-                        <div class="footer-brand">
-                            <a href="#" class="logo">Manimukta Tiwari</a>
-                            <p class="text">
-                                Welcome to my portfolio! I am a Graduate Engineer Training(GET)
-                                My journey involves working on various projects that aim to 
-                                solve problems with innovative solutions. 
-                                Explore my work, skills, and experience through this portfolio.
+                  <p class="text">
+                    Where shopping meets convenience and style! Explore our
+                    E-Commerce Shop for seamless browsing and effortless.
+                  </p>
 
-                            </p>
-            
-                            <ul class="social-list">
-                                <li>
-                                    <a href="#" class="social-link">
-                                        <ion-icon name="logo-facebook"></ion-icon>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#" class="social-link">
-                                        <ion-icon name="logo-instagram"></ion-icon>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#" class="social-link">
-                                        <ion-icon name="logo-twitter"></ion-icon>
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-                        <ul class="footer-list">
-                            <li>
-                                <p class="footer-list-title">Our Links</p>
-                            </li>
-                            <li>
-                                <a href="#home" class="footer-link">Home</a>
-                            </li>
-                            <li>
-                                <a href="#about" class="footer-link">About Us</a>
-                            </li>
-                            <li>
-                                <a href="#project" class="footer-link">Project</a>
-                            </li>
-                            <li>
-                                <a href="#Skills" class="footer-link">Skills</a>
-                            </li>
-                        </ul>
-                        <ul class="footer-list">
-                            <li>
-                                <!-- Contact Form -->
-                                <div class="container">
-                                    <form id="contact-form" class="contact-form">
-                                        <h2>Contact Us</h2>
-                                        <div class="form-group">
-                                            <label for="name">Name:</label>
-                                            <input type="text" id="name" name="name" placeholder="Enter your name" required>
-                                            <small class="error-message" id="name-error"></small>
-                                        </div>
-                                        <div class="form-group">
-                                            <label for="email">Email:</label>
-                                            <input type="email" id="email" name="email" placeholder="Enter your email" required>
-                                            <small class="error-message" id="email-error"></small>
-                                        </div>
-                                        <div class="form-group">
-                                            <label for="message">Message:</label>
-                                            <textarea id="message" name="message" rows="4" placeholder="Your message" required></textarea>
-                                        </div>
-                                        <button type="submit" class="submit-button">Submit</button>
-                                    </form>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
+                  <a
+                    href="https://muktatiwari.github.io/shop_website/"
+                    target="_blank"
+                  >
+                    <button class="card-btn" aria-label="Visit Shop Website">
+                      <ion-icon name="chevron-forward-outline"></ion-icon>
+                    </button>
+                  </a>
                 </div>
-            </footer>
-            <!-----icon for go top-->
-            <a href="#top" class="go-top  active" aria-label="Go To Top" data-go-top>
-                <ion-icon name="arrow-up-outline"></ion-icon>
-            </a>
+              </li>
 
+              <!--Project 3 -->
+              <li>
+                <div class="services-card">
+                  <div class="card-icon">
+                    <ion-icon name="person-outline"></ion-icon>
+                  </div>
 
+                  <h3 class="h3 title">My Own site</h3>
 
+                  <p class="text">
+                    Crafted with HTML, CSS, and JS You will find my information
+                    here so explore the site
+                  </p>
 
+                  <a
+                    href="https://muktatiwari.github.io/My-Portfolio/"
+                    target="_blank"
+                  >
+                    <button class="card-btn" aria-label="Visit Shop Website">
+                      <ion-icon name="chevron-forward-outline"></ion-icon>
+                    </button>
+                  </a>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
 
-        </article>
+        <!--------Skills section-->
+
+        <section class="skills-section" id="Skills">
+          <div class="container">
+            <h2 class="section-title">My Skills</h2>
+            <div class="skills-grid">
+              <!-- Skill Card -->
+              <div class="skill-card">
+                <div class="icon">
+                  <ion-icon name="code-outline"></ion-icon>
+                </div>
+                <div class="content">
+                  <h3>Java</h3>
+                  <div class="progress-bar">
+                    <div class="progress" style="width: 85%"></div>
+                  </div>
+                  <span>85%</span>
+                </div>
+              </div>
+              <div class="skill-card">
+                <div class="icon">
+                  <ion-icon name="logo-javascript"></ion-icon>
+                </div>
+                <div class="content">
+                  <h3>JavaScript</h3>
+                  <div class="progress-bar">
+                    <div class="progress" style="width: 80%"></div>
+                  </div>
+                  <span>80%</span>
+                </div>
+              </div>
+              <div class="skill-card">
+                <div class="icon">
+                  <ion-icon name="logo-html5"></ion-icon>
+                </div>
+                <div class="content">
+                  <h3>HTML</h3>
+                  <div class="progress-bar">
+                    <div class="progress" style="width: 90%"></div>
+                  </div>
+                  <span>90%</span>
+                </div>
+              </div>
+              <!-- Skill Card -->
+              <div class="skill-card">
+                <div class="icon">
+                  <ion-icon name="logo-css3"></ion-icon>
+                </div>
+                <div class="content">
+                  <h3>CSS</h3>
+                  <div class="progress-bar">
+                    <div class="progress" style="width: 85%"></div>
+                  </div>
+                  <span>85%</span>
+                </div>
+              </div>
+              <!-- Skill Card -->
+              <!-- Skill Card -->
+              <div class="skill-card">
+                <div class="icon">
+                  <ion-icon name="server-outline"></ion-icon>
+                </div>
+                <div class="content">
+                  <h3>MySQL</h3>
+                  <div class="progress-bar">
+                    <div class="progress" style="width: 75%"></div>
+                  </div>
+                  <span>75%</span>
+                </div>
+              </div>
+              <!-- Skill Card -->
+              <!-- Skill Card -->
+              <div class="skill-card">
+                <div class="icon">
+                  <ion-icon name="construct-outline"></ion-icon>
+                </div>
+                <div class="content">
+                  <h3>Spring</h3>
+                  <div class="progress-bar">
+                    <div class="progress" style="width: 70%"></div>
+                  </div>
+                  <span>70%</span>
+                </div>
+              </div>
+              <!-- Skill Card -->
+              <div class="skill-card">
+                <div class="icon">
+                  <ion-icon name="cog-outline"></ion-icon>
+                </div>
+                <div class="content">
+                  <h3>Hibernate</h3>
+                  <div class="progress-bar">
+                    <div class="progress" style="width: 65%"></div>
+                  </div>
+                  <span>65%</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!------Footer Section--------------->
+
+        <footer class="footer" id="contact">
+          <div class="footer-top section">
+            <div class="container">
+              <div class="footer-brand">
+                <a href="#" class="logo">Manimukta Tiwari</a>
+                <p class="text">
+                  Welcome to my portfolio! I am a Graduate Engineer
+                  Training(GET) My journey involves working on various projects
+                  that aim to solve problems with innovative solutions. Explore
+                  my work, skills, and experience through this portfolio.
+                </p>
+
+                <ul class="social-list">
+                  <li>
+                    <a href="#" class="social-link">
+                      <ion-icon name="logo-facebook"></ion-icon>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" class="social-link">
+                      <ion-icon name="logo-instagram"></ion-icon>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" class="social-link">
+                      <ion-icon name="logo-twitter"></ion-icon>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <ul class="footer-list">
+                <li>
+                  <p class="footer-list-title">Our Links</p>
+                </li>
+                <li>
+                  <a href="#home" class="footer-link">Home</a>
+                </li>
+                <li>
+                  <a href="#about" class="footer-link">About Us</a>
+                </li>
+                <li>
+                  <a href="#project" class="footer-link">Project</a>
+                </li>
+                <li>
+                  <a href="#Skills" class="footer-link">Skills</a>
+                </li>
+              </ul>
+              <ul class="footer-list">
+                <li>
+                  <!-- Contact Form -->
+                  <div class="container">
+                    <form id="contact-form" class="contact-form">
+                      <h2>Contact Us</h2>
+                      <div class="form-group">
+                        <label for="name">Name:</label>
+                        <input
+                          type="text"
+                          id="name"
+                          name="name"
+                          placeholder="Enter your name"
+                          required
+                        />
+                        <small class="error-message" id="name-error"></small>
+                      </div>
+                      <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input
+                          type="email"
+                          id="email"
+                          name="email"
+                          placeholder="Enter your email"
+                          required
+                        />
+                        <small class="error-message" id="email-error"></small>
+                      </div>
+                      <div class="form-group">
+                        <label for="message">Message:</label>
+                        <textarea
+                          id="message"
+                          name="message"
+                          rows="4"
+                          placeholder="Your message"
+                          required
+                        ></textarea>
+                      </div>
+                      <button type="submit" class="submit-button">
+                        Submit
+                      </button>
+                    </form>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </footer>
+        <!-----icon for go top-->
+        <a href="#top" class="go-top active" aria-label="Go To Top" data-go-top>
+          <ion-icon name="arrow-up-outline"></ion-icon>
+        </a>
+      </article>
     </main>
-
-
-
-
-
-
 
     <!----JAVASCRIPT-->
 
     <script src="javascript.js"></script>
     <script>
-        document.getElementById('githubButton').onclick = function(event) {
-    event.preventDefault(); // Prevent the link from doing its default action
-    window.open('https://github.com/MuktaTiwari', '_blank'); // Open GitHub profile in a new tab
-  };
+      document.getElementById("githubButton").onclick = function (event) {
+        event.preventDefault(); // Prevent the link from doing its default action
+        window.open("https://github.com/MuktaTiwari", "_blank"); // Open GitHub profile in a new tab
+      };
     </script>
 
     <!-- 
     - ionicon link
   -->
-    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-
-
-
-</body>
-
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
 </html>
